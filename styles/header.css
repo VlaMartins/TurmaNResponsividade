@@ -27,5 +27,5 @@
 }
 
 .container__botao:checked~.lista__menu{/**/ se o cotnainer botao estiver clicado eu vou pegar o lista menu e aplicar a propriedade para block
-    display: block;//o til ta dizendo que qdo isso contecer eu vou mudar essa daqui para essa daqui
+    display: block; //o til ta dizendo que qdo isso contecer eu vou mudar essa daqui para essa daqui
 }
