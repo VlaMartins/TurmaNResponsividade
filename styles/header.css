@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-between;
     background-color: var(--branco);
+    position: relative;/*o cabecalho vai ser o referncial de posicionamento*/
+    align-items: center;/*alinhar alinhamento vertical*/
 }
 
 .cabecalho__menu{
@@ -29,3 +31,5 @@
 .container__botao:checked~.lista__menu {
     display: block;
   }
+
+  /*fazer o menu ficar pra baixo*/
