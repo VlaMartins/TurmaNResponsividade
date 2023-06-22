@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     background-color: var(--branco);
+    
     position: relative;/*o cabecalho vai ser o referncial de posicionamento*/
     align-items: center;/*alinhar alinhamento vertical*/
 }
@@ -26,6 +27,8 @@
 
 .lista__menu{
     display: none;//desaparece o menu 
+    position: absolute; /*vai ficar por cima dos outros itens */
+    top:100%; /*fique 100 abaixo do cabeçalho, que é a referencia e esta*/
 }
 
 .container__botao:checked~.lista__menu {
