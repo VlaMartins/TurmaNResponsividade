@@ -14,11 +14,11 @@
     height: 24px;
 }
 
-.conteiner{
+.container{
     display: flex;
     justify-content: space-between;
 }
 
-.conteiner__imagem{
+.container__imagem{
     padding: 1em;
 }
