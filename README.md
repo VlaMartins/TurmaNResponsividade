@@ -1,2 +1,2 @@
 # TurmaNResponsividade
-Professora FranPastori. Formadores em Ação - Trilhas de Programação
+Repositório criado para hospedar o projeto desenvolvido na segunda jornada do GE de Trilhas de Programação.
