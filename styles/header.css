@@ -25,12 +25,12 @@
     padding: 1em;
 }
 
-.lista__menu{
-    display: none;//desaparece o menu 
-    position: absolute; /*vai ficar por cima dos outros itens */
-    top:100%; /*fique 100 abaixo do cabeçalho, que é a referencia e esta*/
-}
 
+.lista__menu{
+    display: none;
+    position: absolute;
+    top:100%;
+}
 .container__botao:checked~.lista__menu {
     display: block;
   }
