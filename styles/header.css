@@ -1,3 +1,11 @@
+.cabeçalho {
+  background-color: var(--branco);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative; /*aula hamb.*/
+}
+
 .cabeçalho__menu-hamburguer {
   width: 24px;
   height: 24px;
@@ -7,32 +15,14 @@
   display: inline-block;
 }
 
-.cabeçalho {
-  background-color: var(--branco);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-}
-
 .container {
-  display: flex;
+  display: flex; 
   align-items: center;
 }
 
 .container__imagem {
   padding: 1em;
 }
-
-.container__botao {
-  display: none;
-}
-
-.container__titulo {
-  display: none;
-}
-
-/*hamburguer */
 
 .lista-menu {
   display: none;
@@ -45,14 +35,16 @@
   display: block;
 }
 
-.container__botao:checked~.container__rotulo>.cabeçalho__menu-hamburguer {
-  background-image: url("../img/Menu Aberto.svg");
+/* aula hamb. 28/06*/
+.container__botao {
+  display: none;
 }
 
-.container__botao:checked~.container__rotulo {
-  background: var(--azul-degrade);
+.container__titulo {
+  display: none;
 }
 
+/*hamburguer */
 
 /*deixa o fundo branco e espaçado*/
 .lista-menu__titulo,
@@ -73,3 +65,13 @@
   background-clip: text;
   text-transform: uppercase;
 }
+
+.container__botao:checked~.container__rotulo>.cabeçalho__menu-hamburguer {
+  background-image: url("../img/Menu Aberto.svg");
+}
+
+.container__botao:checked~.container__rotulo {
+  background: var(--azul-degrade);
+}
+
+
