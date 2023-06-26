@@ -32,9 +32,9 @@
   display: none;
 }
 
+/*hamburguer */
 
-/*menu hamburguer*/
-.lista-menu{
+.lista-menu {
   display: none;
   position: absolute;
   top: 100%;
@@ -45,11 +45,20 @@
   display: block;
 }
 
-/*fazer o menu ficar pra baixo*/
+.container__botao:checked~.container__rotulo>.cabeçalho__menu-hamburguer {
+  background-image: url("../img/Menu Aberto.svg");
+}
+
+.container__botao:checked~.container__rotulo {
+  background: var(--azul-degrade);
+}
+
+
+/*deixa o fundo branco e espaçado*/
 .lista-menu__titulo,
 .lista-menu__item {
-    padding: 1em;
-    background-color: var(--branco);
+  padding: 1em;
+  background-color: var(--branco);
 }
 
 .lista-menu__titulo {
@@ -63,12 +72,4 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-transform: uppercase;
-}
-
-.container__botao:checked~.container__rotulo>.cabeçalho__menu-hamburguer {
-  background-image: url("../img/Menu Aberto.svg");
-}
-
-.container__botao:checked~.container__rotulo {
-  background: var(--azul-degrade);
 }
