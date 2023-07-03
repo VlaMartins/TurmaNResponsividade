@@ -28,7 +28,7 @@
   display: none;
   position: absolute;
   top: 100%;
-  width: 60vw;
+  width: 60vw;//corresponde a 60% do tamanho da tela que eu estou usando
 }
 
 .container__botao:checked~.lista-menu {
@@ -49,7 +49,7 @@
 /*deixa o fundo branco e espaçado*/
 .lista-menu__titulo,
 .lista-menu__item {
-  padding: 1em;
+  padding: 1em;/*medida responsiva sobre */
   background-color: var(--branco);
 }
 
@@ -60,9 +60,7 @@
 
 .lista-menu__link {
   background: var(--azul-degrade);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  
   text-transform: uppercase;
 }
 
